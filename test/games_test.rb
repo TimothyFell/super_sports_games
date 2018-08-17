@@ -60,7 +60,7 @@ class GamesTest < Minitest::Test
     games.add_event(curling)
     games.add_event(ring_toss)
 
-    expected = "Event          Max Age             Min Age             Average Age         StdDev Age\n"
+    expected = "Event          Max Age             Min Age             Average Age         StdDev Age\n" +
                "Curling        41                  18                  26.6                8.28\n" +
                "Ring Toss      30                  18                  24.4                4.5"
 
